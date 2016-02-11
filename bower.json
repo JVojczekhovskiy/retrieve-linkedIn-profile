@@ -1,0 +1,23 @@
+{
+  "name": "retrieve-linkedIn-profile",
+  "authors": [
+    "Julie Vojczekhovskiy <j.vojczekhovskiy@mondriaanict.nl>"
+  ],
+  "description": "Directive for angularjs to login into linkedIn and retrieve the users profile.",
+  "homepage": "https://github.com/JVojczekhovskiy/retrieve-linkedIn-profile",
+  "main": "dist/retrieve-linkedIn-profile.js",
+  "keywords": [
+    "angularjs",
+    "directive",
+    "linkedIn",
+    "login"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
