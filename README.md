@@ -16,6 +16,7 @@ Directive for angularjs to login into linkedIn and retrieve the users profile.
       ```html
       <script src="dist/retrieve-linkedIn-profile.js"></script>
       ```
+* Include your API key on line 16 of the directive.
 * Use the `retrieve-linkedIn-profile` directive.
 
 ## Example
