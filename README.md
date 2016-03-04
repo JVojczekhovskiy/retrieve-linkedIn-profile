@@ -21,8 +21,7 @@ Directive for angularjs to login into linkedIn and retrieve the users profile.
 ## Example
 
 * You can place the login tags anywhere you want inside your application.
-<<<<<<< HEAD
 * Add your api key in the apikey attribute.
 
-      `<linked-in-login callback='mySaveProfileFunction(profile)'></linked-in-login>`
+      `<linked-in-login apikey="YOUR_KEY_HERE" callback='mySaveProfileFunction(profile)'></linked-in-login>`
 * The callback attribute is for the function which will be executed when the user logins and the parameter of that function is the linkedIn profile of the user which logged in.
