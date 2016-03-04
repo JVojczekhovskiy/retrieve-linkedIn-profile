@@ -8,12 +8,12 @@ angular.module('retrieve-linkedIn-profile',[])
     scope: {
       callback: '&'
     },
-    link: function(scope,element) {
+    link: function(scope,element,attribute) {
       (function injectScript() {
         var src = 'http://platform.linkedin.com/in.js',
         script = document.createElement('script');
         script.src = src;
-        script.text = 'api_key: ' + 'YOUR API HERE';
+        script.text = 'api_key: ' + attribute.apikey;
         script.onload = onLinkedInload;
         document.getElementsByTagName('head')[0].appendChild(script);
       })();
